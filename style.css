@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bb64f5;
+}
+
+.nome{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 1%;
+}
+
+.perfil{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 25%;
+    border-radius: 100px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #ABD904;
+    border: 5px solid rgb(206, 146, 156);
+    padding-left: 45px;
+    position: relative;
+    width: auto;
+    border-radius: 100px;
+    align-items: left;
+    text-align: left;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 10;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+    left: 50%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: purple;
+}
+
+nav ul li a:hover{
+    color: rgb(260, 146, 156);
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.7rem;
+    padding-left:  10%;
+}
+
+.social a {
+    color: rgb(76, 102, 25);
+    font-size: 50px;
+    border: 1.6px solid rgb(76, 102, 25);
+    border-radius: 50%;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+}
+
+.social a:hover {
+    color: rgb(170, 255, 0);
+    background-color: rgb(76, 102, 25);
+    box-shadow: 0 0 20px rgb(76, 102, 25);
+    transition: all .3s ease-in-out;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    color: #000000;
+}
+
+h1 {
+    color: #F24949;
+}
+
+h2 {
+    color: #FBA596;
+}
+
+.habilidade{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 15px;
+}
+
+.projeto {
+    background-color: #F8A596;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+.projeto > p{
+    padding: 10px;
+}
+
+footer {
+    background-color: #ABD904;
+    border-top: 5px solid rgb(260, 146, 156); 
+    color: #b10a6b;
+    text-align: right;
+    height: 80px;
+}
+
+h6{
+    position: relative;
+    bottom: 35px;
+    color: #bb64f5;
+}
+
+.caixa-home-foot {
+    position: center;
+    text-align: center;
+    bottom: 5px;
+    left: 10px;
+}
+
+.caixa-home-foot a{
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.caixa-home-foot a:hover{
+    color: rgb(260, 146, 156);
+}
+
+.projetolink{
+    color: #79A900;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.projetolink:hover{
+    color: purple;
+}
+
+.contatos{
+    font-size: 18px;
+}
