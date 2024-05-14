@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #bb64f5;
+    background-image: linear-gradient(to bottom, #ce74fc, #7631a1, #661d96);
 }
 
 .nome{
@@ -16,14 +16,14 @@ body {
     width: 200px;
     height: 200px;
     position: relative;
-    left: 25%;
+    left: 24.9%;
     border-radius: 100px;
 }
 
 header {
     display: flex;
     flex-direction: row;
-    background-color: #ABD904;
+    background-image: linear-gradient(to right, #ABD904, #789612 , #4c6619) ;
     border: 5px solid rgb(206, 146, 156);
     padding-left: 45px;
     position: relative;
@@ -31,6 +31,7 @@ header {
     border-radius: 100px;
     align-items: left;
     text-align: left;
+    box-shadow: 0 0 10px #b10a6b;
 }
 
 
@@ -75,7 +76,7 @@ nav ul li a:hover{
 
 .social a:hover {
     color: rgb(170, 255, 0);
-    background-color: rgb(76, 102, 25);
+    background-color: #4c6619;
     box-shadow: 0 0 20px rgb(76, 102, 25);
     transition: all .3s ease-in-out;
 }
