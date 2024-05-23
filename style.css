@@ -16,7 +16,7 @@ body {
     width: 200px;
     height: 200px;
     position: relative;
-    left: 24.9%;
+    left: 25%;
     border-radius: 100px;
 }
 
@@ -104,12 +104,26 @@ h2 {
    font-size: 15px;
 }
 
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 25%;
+}
+
 .projeto {
-    background-color: #F8A596;
     color: black;
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     border-radius: 50px;
+    width: 280px;
+    height: fit-content;
+}
+
+h5{
+    text-align: center;
+    font-size: 8px;
 }
 
 .projeto > p{
@@ -128,6 +142,43 @@ h6{
     position: relative;
     bottom: 35px;
     color: #bb64f5;
+}
+
+form{
+    background-image: url(imagens/imagem-fundo-form.png);
+    background-size: 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    left: 30%;
+}
+
+form p{
+    position: relative;
+    top: 55%;
+    color: black;
+}
+
+input{
+    background: transparent;
+    border-radius: 5px;
+}
+
+.botao{
+    color: #661d96;
+    background: #ABD904;
+}
+
+.botao:hover{
+    color: #FBA596;
+    background-color:  #4c6619;
 }
 
 .caixa-home-foot {
